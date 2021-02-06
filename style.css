@@ -20,12 +20,12 @@
     margin: 5% auto;
     
 }
-#meal{
+#mealList{
     
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 100px;
 }
-#meal img{
+#mealList img{
     width: 100%;
 }
