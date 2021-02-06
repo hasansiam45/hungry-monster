@@ -1,0 +1,31 @@
+#userSearch{
+    text-align: center;
+    margin: 3%;
+}
+#input,
+#btn {
+    padding: 10px 50px;
+    border-radius: 12px;
+    outline: none;
+    margin: 5px;
+    font-size: 22px;
+}
+#btn{
+    cursor: pointer;
+}
+
+#meals{
+
+    width: 80%;
+    margin: 5% auto;
+    
+}
+#meal{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px;
+}
+#meal img{
+    width: 100%;
+}
