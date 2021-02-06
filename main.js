@@ -20,21 +20,6 @@ document.getElementById('btn').addEventListener('click', function () {
                 mealList.appendChild(mealDiv);
             });
 
-          
-            // const meal = document.getElementById('meal');
-            // const mealImg = data.meals[0].strMealThumb;
-            // const mealName = data.meals[0].strMeal;
-            // const mealDiv = document.createElement('div');
-            // const mealInfo = `
-            // <img src = "${mealImg}">
-            // <h2>${mealName}</h2>
-            // `
-            // mealDiv.innerHTML = mealInfo;
-            // meal.appendChild(mealDiv);
-
-       
-            
-
             
         })
     
