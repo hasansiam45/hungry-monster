@@ -14,19 +14,29 @@ function displayMatchingFoods() {
         .then(res => res.json())
 
         .then(data => {
-            const meals = data.meals;
-            meals.forEach(meal => {
+            if (data.meals) {
+                document.getElementById('showError').style.display = 'none';
+                document.getElementById('details').style.display = 'block';
 
-                const mealDiv = document.createElement('div');
-                const mealName = meal.strMeal;
-                const mealImg = meal.strMealThumb;
-                const mealInfo = `
+                const meals = data.meals;
+                meals.forEach(meal => {
+
+                    const mealDiv = document.createElement('div');
+                    const mealName = meal.strMeal;
+                    const mealImg = meal.strMealThumb;
+                    const mealInfo = `
             <img onclick = "displayDetails('${mealName}')" src = "${mealImg}">
             <h2 onclick = "displayDetails('${mealName}')">${mealName}</h2>
             `
-                mealDiv.innerHTML = mealInfo;
-                mealList.appendChild(mealDiv);
-            });
+                    mealDiv.innerHTML = mealInfo;
+                    mealList.appendChild(mealDiv);
+                });
+            } else {
+                document.getElementById('showError').style.display = 'block';
+                document.getElementById('details').style.display = 'none';
+
+            }
+
 
         })
 

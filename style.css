@@ -1,3 +1,4 @@
+
 #userSearch{
     text-align: center;
     margin: 10%;
@@ -30,6 +31,7 @@
     width: 100%;
 }
 
+
 #details{
     width: 500px;
     margin-top: 3%;
@@ -38,4 +40,16 @@
 
 #details img{
     width: 200px;
+}
+
+#showError{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 auto;
+    color: red;
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 400px;
+    display: none;
 }
