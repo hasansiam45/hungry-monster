@@ -25,8 +25,8 @@ function displayMatchingFoods() {
                     const mealName = meal.strMeal;
                     const mealImg = meal.strMealThumb;
                     const mealInfo = `
-            <img onclick = "displayDetails('${mealName}')" src = "${mealImg}">
-            <h2 onclick = "displayDetails('${mealName}')">${mealName}</h2>
+            <img onclick = "displayDetails('${mealName}')" onchange = "displayDetails('${mealName}')" src = "${mealImg}">
+            <h2 onclick = "displayDetails('${mealName}')" onchange = "displayDetails('${mealName}')">${mealName}</h2>
             `
                     mealDiv.innerHTML = mealInfo;
                     mealList.appendChild(mealDiv);
