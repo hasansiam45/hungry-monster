@@ -65,6 +65,8 @@ const displayDetails = name => {
                     <h3>4. ${detailsOfMeal.strIngredient4}</h3>
                     <h3>5. ${detailsOfMeal.strIngredient5}</h3>
                     <h3>6. ${detailsOfMeal.strIngredient6}</h3>
+                    <h3>7. ${detailsOfMeal.strIngredient7}</h3>
+
 
                     `
                     detailsInfo.innerHTML = ingredientInfo;
