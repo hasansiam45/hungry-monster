@@ -1,5 +1,7 @@
 let mealList = document.getElementById('mealList');
 let topInfo = document.getElementById('details');
+let userInput = document.getElementById('input');
+userInput.value = null;
 
 document.getElementById('btn').addEventListener('click', displayMatchingFoods);
 document.getElementById('input').addEventListener('change', displayMatchingFoods);
