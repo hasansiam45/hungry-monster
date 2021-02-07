@@ -59,14 +59,14 @@ const displayDetails = name => {
                     <img src ="${detailsOfMeal.strMealThumb}">
                     <h1>${detailsOfMeal.strMeal}</h1>
                     <h3>Ingredients: </h3>
-                    <h3>1. ${detailsOfMeal.strIngredient1}</h3>
-                    <h3>2. ${detailsOfMeal.strIngredient2}</h3>
-                    <h3>3. ${detailsOfMeal.strIngredient3}</h3>
-                    <h3>4. ${detailsOfMeal.strIngredient4}</h3>
-                    <h3>5. ${detailsOfMeal.strIngredient5}</h3>
-                    <h3>6. ${detailsOfMeal.strIngredient6}</h3>
-                    <h3>7. ${detailsOfMeal.strIngredient7}</h3>
-
+                    <ol>       <li> ${detailsOfMeal.strIngredient1}</li>
+                    <li> ${detailsOfMeal.strIngredient2}</li>
+                    <li> ${detailsOfMeal.strIngredient3}</li>
+                    <li> ${detailsOfMeal.strIngredient4}</li>
+                    <li> ${detailsOfMeal.strIngredient5}</li>
+                    <li> ${detailsOfMeal.strIngredient6}</li>
+                    <li> ${detailsOfMeal.strIngredient7}</li>
+</ol>
 
                     `
                     detailsInfo.innerHTML = ingredientInfo;
