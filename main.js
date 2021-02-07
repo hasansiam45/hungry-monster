@@ -66,6 +66,10 @@ const displayDetails = name => {
                     <li> ${detailsOfMeal.strIngredient5}</li>
                     <li> ${detailsOfMeal.strIngredient6}</li>
                     <li> ${detailsOfMeal.strIngredient7}</li>
+                    <li> ${detailsOfMeal.strIngredient8}</li>
+                    <li> ${detailsOfMeal.strIngredient9}</li>
+                    <li> ${detailsOfMeal.strIngredient10}</li>
+
 </ol>
 
                     `
